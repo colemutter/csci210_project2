@@ -23,7 +23,7 @@ void mkdir(char pathName[]){
     }
 
     if (strlen(baseName) == 0) {
-        printf("MKDIR ERROR: no directory name provided\n");
+        printf("MKDIR ERROR: no path provided\n");
         return;
     }
 
